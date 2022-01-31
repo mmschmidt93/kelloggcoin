@@ -38,29 +38,30 @@ for transaction in blockchain
 
 to_wallets = transaction[:to_user] 
 from_wallets = transaction[:from_user]
+transaction_amt = transaction[:amount]
 
-if transaction[:to_user] == "ben"
-ben_balance += transaction[:amount]
+if to_wallets == "ben"
+ben_balance += transaction_amt
 elsif from_wallets == "ben"
-ben_balance -= transaction[:amount]
+ben_balance -= transaction_amt
 end
 
-if transaction[:to_user] == "brian"
-brian_balance += transaction[:amount]
+if to_wallets == "brian"
+brian_balance += transaction_amt
 elsif from_wallets == "brian"
-brian_balance -= transaction[:amount]
+brian_balance -= transaction_amt
 end
 
-if transaction[:to_user] == "evan"
-evan_balance += transaction[:amount]
+if to_wallets == "evan"
+evan_balance += transaction_amt
 elsif from_wallets == "evan"
-evan_balance -= transaction[:amount]
+evan_balance -= transaction_amt
 end
 
-if transaction[:to_user] == "anthony"
-anthony_balance += transaction[:amount]
+if to_wallets == "anthony"
+anthony_balance += transaction_amt
 elsif from_wallets == "anthony"
-anthony_balance -= transaction[:amount]
+anthony_balance -= transaction_amt
 end
 
 end
