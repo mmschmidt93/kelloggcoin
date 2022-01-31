@@ -70,9 +70,5 @@ puts "Brian's KelloggCoin balance is #{brian_balance}"
 puts "Evan's KelloggCoin balance is #{evan_balance}"
 puts "Anthony's KelloggCoin balance is #{anthony_balance}"
 
-#puts wallet_amount
 #unique_wallet = wallets.uniq.sort
 #combined_wallets = to_wallets + from_wallets
-#puts "#{transaction[:to_user]} wallet"
-#puts "The most recent payment to #{transaction[:to_user]}"
-#puts "The most recent payment amount of #{transaction[:amount]}"
