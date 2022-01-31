@@ -27,8 +27,9 @@ blockchain = [
 # Anthony's KelloggCoin balance is 2650
 
 # 👇👇👇 Your code HERE 👇👇👇
- 
-#payment_from = blockchain[:from_user]
+
+puts "--------------------------------------------"
+
 ben_balance = 0
 brian_balance = 0
 evan_balance = 0
@@ -70,6 +71,4 @@ puts "Ben's KelloggCoin balance is #{ben_balance}"
 puts "Brian's KelloggCoin balance is #{brian_balance}"
 puts "Evan's KelloggCoin balance is #{evan_balance}"
 puts "Anthony's KelloggCoin balance is #{anthony_balance}"
-
-#unique_wallet = wallets.uniq.sort
-#combined_wallets = to_wallets + from_wallets
+puts "--------------------------------------------"
